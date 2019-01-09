@@ -1,0 +1,243 @@
+.contact-hide {
+    top: 100vh !important;
+}
+
+.contact-us-wrap {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    z-index: 3;
+}
+
+.contact-main .contact-main-position {
+    position: absolute;
+    bottom: 0;
+    padding-left: 50px;
+}
+
+.contact-main {
+    height: 40%;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.contact-main h2 {
+    transition: all .2s linear;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contact-main h2,
+.figure-explain-wrap h2 {
+    font-weight: 1000;
+    font-size: 48px;
+    margin-top: -5px;
+}
+
+.contact-main p {
+    transition: all .2s linear;
+    margin-bottom: 7px;
+    font-size: 16px;
+}
+
+.line-ht5 {
+    line-height: 25px;
+}
+
+.scroll-wrap {
+    height: calc(100% - 130px);
+    overflow: hidden;
+}
+
+.sign-up {
+    height: 60%;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+
+.sign-up .sign-up-wrap {
+    padding-top: 49px;
+    height: calc(100% - 30px);
+    width: 1130px;
+    margin: 0 auto !important;
+    position: relative;
+}
+
+.ps-container {
+    position: relative;
+    display: block;
+}
+
+.ps-container {
+    -ms-touch-action: auto;
+    touch-action: auto;
+    overflow: hidden !important;
+    -ms-overflow-style: none;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf {
+    width: 410px;
+    margin-right: 95px;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .login-show-message>textarea {
+    width: 430px;
+    height: 75px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #ababab;
+    padding-left: 5px;
+}
+
+.login-show .r-person-register-info {
+    border-bottom: 0.5px solid #ababab !important;
+}
+
+.move-placeholder-input-box:hover .r-person-register-info {
+    /* border-color: #7078F7 ; */
+    border-bottom: 0.5px solid #7B7A8A !important;
+}
+
+/* .sign-up .sign-up-wrap .sign-up-lf  */
+
+.move-placeholder-input-box:hover .move-input {
+    /* border-color: #7078F7 ; */
+    border-bottom: 0.5px solid #7B7A8A !important;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show {
+    position: static;
+    width: 430px;
+    height: auto;
+    padding-left: 0;
+    padding-bottom: 15px;
+    background: #fff;
+    margin: 0;
+    -webkit-box-shadow: 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent;
+    padding-top: 0;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .r-person-register-l,
+.sign-up .sign-up-wrap .sign-up-lf .login-show .r-person-register-r {
+    width: 430px;
+    position: relative;
+}
+
+/* .r-person-register-l {
+    margin-left: 20px;
+} */
+
+.login-show {
+    padding: 33px 0 0 25px;
+    background-color: #fff;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .r-person-register-l>div,
+.sign-up .sign-up-wrap .sign-up-lf .login-show .r-person-register-r>div {
+    position: relative;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .login-show-user {
+    margin-bottom: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .login-show-pwd {
+    margin-top: 0;
+    margin-left: 25px;
+    width: 200px;
+    display: inline-block;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .login-show-message {
+    margin-top: 30px;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .but-send {
+    margin-top: 30px;
+    margin-right: -27px;
+    background: #7078F7;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .but-send:hover {
+    background: #5E66D1;
+}
+
+/* .sign-up .sign-up-wrap .sign-up-lf .login-show .but-send:hover {} */
+
+.login-show .r-person-register-l div,
+.login-show .r-person-register-r div {
+    position: relative;
+}
+
+.sign-up .sign-up-wrap .sign-up-rt {
+    width: 570px;
+}
+
+.sign-up-lf {
+    float: left;
+}
+
+.sign-up-rt {
+    float: right;
+}
+
+.sign-up .sign-up-wrap .sign-up-rt .sign-up-info {
+    margin-bottom: 40px !important;
+    line-height: 25px;
+}
+
+.sign-up .sign-up-wrap .sign-up-rt .sign-up-info>h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.sign-up .sign-up-wrap .sign-up-lf .login-show .login-show-message>p,
+.sign-up .sign-up-wrap .sign-up-lf .login-show .r-person-register-l div p,
+.sign-up .sign-up-wrap .sign-up-lf .login-show .r-person-register-r div div p {
+    height: 40px;
+    line-height: 50px;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .2s;
+}
+
+.contact-us-img-box {
+    display: table-cell;
+    width: 24px;
+    height: 25px;
+    vertical-align: middle;
+    float: left;
+}
+
+.contact-us-text-box {
+    display: inline-block;
+    width: 520px;
+    margin-left: 17px;
+}
+
+#contact-us-box .main-c {
+    font-size: 22px;
+    /* margin-bottom: 10px; */
+}
+
+#contact-us-box #mail-icon {
+    margin-top: 2px;
+}
+
+#contact-us-box #phone-icon {
+    margin-left: 3px;
+}

@@ -1,0 +1,106 @@
+.cdk-overlay-container .mat-menu-content {
+    padding: 0 !important;
+}
+
+.mat-form-field-invalid .mat-form-field-label {
+    color: #7b7a8a !important;
+    font-size: 16px !important;
+}
+
+.mat-input-underline {
+    background-color: rgba(#7b7a8a, 0.5);
+    padding-bottom: none !important;
+    /* display: block; */
+}
+
+.gender-container .mat-input-underline {
+    background-color: rgba(#7b7a8a, 0.5);
+    display: block;
+}
+
+.mat-form-field-ripple {
+    display: none;
+}
+
+.mat-input-element {
+    color: #7b7a8a !important;
+}
+
+.mat-select-panel {
+    margin-top: 40px !important;
+    max-height: 200px !important;
+    box-shadow: 0 3px 3px rgba(26, 26, 26, .1), 0 3px 3px rgba(26, 26, 26, .1), 0 -1px 3px rgba(26, 26, 26, .3), 0 3px 3px rgba(26, 26, 26, .1) !important;
+    border-radius: 2px;
+}
+
+.mat-option {
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    height: 20px !important;
+    text-indent: 5px !important;
+    margin: 3px 5px 2px !important;
+    position: relative !important;
+    padding-right: 5px !important;
+    transition: all .2s linear !important;
+    border-radius: 2px !important;
+    color: #9193AB !important;
+}
+
+.mat-option .mat-option-text {
+    cursor: pointer;
+    font-size: 13px !important;
+    line-height: 24px !important;
+}
+
+.mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple) {
+    background-color: #7078F7 !important;
+}
+
+.mat-option:hover:not(.mat-option-disabled),
+.mat-option:focus:not(.mat-option-disabled) {
+    background-color: #7078F7 !important;
+}
+
+.mat-option:hover .mat-option-text {
+    color: #fff;
+}
+
+.mat-option.mat-active {
+    background-color: #7078F7 !important;
+}
+
+.mat-option.mat-active .mat-option-text {
+    color: #fff !important;
+}
+
+.mat-select-value {
+    color: #7b7a8a !important;
+}
+
+.mat-form-field-label {
+    color: #7B7A8A !important;
+    font-size: 18px !important;
+}
+
+.mat-form-field-invalid .mat-input-element {
+    caret-color: #7B7A8A;
+}
+
+/* input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill { */
+
+/* -webkit-box-shadow: 0 0 0 1000px white inset; */
+
+/* background: none; */
+
+/* border: 1px solid red; */
+
+/* box-sizing: content-box;
+    height: 32px;
+    background-color: #fff !important;
+} */
+
+.mat-select-box input {
+    color: #7b7a8a !important;
+}

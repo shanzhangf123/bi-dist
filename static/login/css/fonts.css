@@ -1,0 +1,484 @@
+/* import fonts */
+
+@font-face {
+    font-family: LatoLatin-Bold;
+    src: url(../fonts/latoLatin/LatoLatin-Bold.woff) format("woff"), url(../fonts/latoLatin/LatoLatin-Bold.woff2) format("woff2"), url(../fonts/latoLatin/LatoLatin-Bold.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: LatoLatin-Light;
+    src: url(../fonts/latoLatin/LatoLatin-Light.woff) format("woff"), url(../fonts/latoLatin/LatoLatin-Light.woff2) format("woff2"), url(../fonts/latoLatin/LatoLatin-Light.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: LatoLatin-Medium;
+    src: url(../fonts/latoLatin/LatoLatin-Medium.woff) format("woff"), url(../fonts/latoLatin/LatoLatin-Medium.woff2) format("woff2"), url(../fonts/latoLatin/LatoLatin-Medium.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: LatoLatin-Regular;
+    src: url(../fonts/latoLatin/LatoLatin-Regular.woff) format("woff"), url(../fonts/latoLatin/LatoLatin-Regular.woff2) format("woff2"), url(../fonts/latoLatin/LatoLatin-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: LatoLatin-Thin;
+    src: url(../fonts/latoLatin/LatoLatin-Thin.woff) format("woff"), url(../fonts/latoLatin/LatoLatin-Thin.woff2) format("woff2"), url(../fonts/latoLatin/LatoLatin-Thin.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+/* format fonts */
+
+.c1-f {
+    color: #9193AB
+}
+
+.c2-f {
+    color: #fff
+}
+
+.c3-f,
+.c5-f {
+    font-family: LatoLatin-Bold, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.c3-f {
+    color: #080808;
+    font-size: 16px
+}
+
+.c4-f {
+    color: #3C3C3C;
+    font-size: 14px
+}
+
+.c5-f {
+    color: #fff;
+    font-size: 14px
+}
+
+.v1-f,
+.v2-f {
+    font-size: 14px;
+    color: #D2D5F7
+}
+
+.v1-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f1-f,
+.v3-f,
+.v4-f,
+.v9-f {
+    font-size: 13px
+}
+
+.v3-f {
+    color: #7078F7
+}
+
+.v4-f,
+.v5-f {
+    color: #D2D5F7
+}
+
+.v4-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif
+}
+
+.v6-f,
+.v7-f {
+    color: #9193AB
+}
+
+.v6-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.v8-f,
+.v9-f {
+    color: #5E66D1
+}
+
+.v8-f {
+    font-family: LatoLatin-Bold, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f1-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    color: #F7F7F7
+}
+
+.f3-f,
+.f4-f,
+.f7-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f2-f,
+.f3-f {
+    color: #9193AB
+}
+
+.f2-f {
+    font-size: 14px
+}
+
+.f3-f {
+    font-size: 22px
+}
+
+.f4-f {
+    color: #fff
+}
+
+.f5-f {
+    color: #9193AB
+}
+
+.f6-f {
+    color: #fff
+}
+
+.f7-f {
+    font-size: 14px;
+    color: #080808
+}
+
+.f10-f,
+.f11-f,
+.f8-f {
+    font-size: 13px
+}
+
+.f8-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    color: #ABABAB
+}
+
+.f9-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    color: #7B7A8A
+}
+
+.f10-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    color: #9193AB
+}
+
+.f11-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    color: #fff
+}
+
+.f12-f {
+    font-family: LatoLatin-Bold, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    color: #fff;
+    font-size: 12px
+}
+
+.f13-f,
+.f14-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    font-weight: 200 !important
+}
+
+.f13-f {
+    color: #ABABAB
+}
+
+.f14-f {
+    color: #9193AB
+}
+
+.f15-f {
+    color: #080808
+}
+
+.f16-f {
+    font-size: 16px;
+    color: #7B7A8A
+}
+
+.f17-f {
+    color: #9193AB
+}
+
+.f18-f {
+    font-size: 14px;
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    color: #5D576B
+}
+
+.f20-f,
+.f21-f {
+    font-size: 13px
+}
+
+.f19-f,
+.f21-f,
+.f23-f {
+    font-family: LatoLatin-Bold, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f19-f,
+.f20-f {
+    color: #4C4B63
+}
+
+.f21-f {
+    color: #080808
+}
+
+.f22-f,
+.f23-f,
+.f24-f,
+.f25-f {
+    color: #fff
+}
+
+.f22-f {
+    font-size: 16px
+}
+
+.f23-f {
+    font-size: 13px
+}
+
+.f25-f,
+.f26-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    font-weight: 200 !important
+}
+
+.f24-f {
+    font-size: 14px
+}
+
+.f25-f {
+    line-height: 15px
+}
+
+.f26-f {
+    font-size: 13px;
+    color: #CECECE
+}
+
+.f28-f,
+.f29-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f27-f {
+    color: #9193AB
+}
+
+.f28-f {
+    font-size: 14px;
+    color: #fff
+}
+
+.f29-f {
+    color: #9193AB
+}
+
+.f30-f {
+    font-size: 28px;
+    color: #080808;
+    font-family: LatoLatin-Thin, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    font-weight: 200 !important
+}
+
+.f31-f,
+.f33-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif
+}
+
+.f31-f {
+    font-weight: 200 !important;
+    color: #9193AB
+}
+
+.f32-f {
+    color: #7B7A8A
+}
+
+.f33-f,
+.f34-f {
+    font-weight: 200 !important;
+    color: #9193AB
+}
+
+.f34-f {
+    font-size: 50px;
+    font-family: LatoLatin-Thin, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif
+}
+
+.f35-f,
+.f36-f,
+.f37-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f35-f {
+    font-size: 30px;
+    color: #4C4B63
+}
+
+.f36-f {
+    color: #fff
+}
+
+.f37-f {
+    color: #ABABAB
+}
+
+.f38-f,
+.f39-f,
+.f40-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    font-weight: 200 !important
+}
+
+.f38-f {
+    color: #CECECE
+}
+
+.f39-f {
+    color: #4C4B63
+}
+
+.f40-f {
+    font-size: 13px;
+    color: #CECECE
+}
+
+.f41-f,
+.f45-f {
+    font-family: LatoLatin-Bold, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f41-f {
+    font-size: 16px;
+    color: #E2E2E9
+}
+
+.f42-f {
+    color: #5DA8E6
+}
+
+.f43-f {
+    color: #98D2EB
+}
+
+.f44-f {
+    color: #D7BCE8
+}
+
+.f45-f {
+    color: #A33EFE
+}
+
+.f46-f,
+.f47-f {
+    color: #5E66D1
+}
+
+.f46-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f48-f {
+    font-family: LatoLatin-Bold, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    color: #D7BCE8
+}
+
+.f49-f {
+    font-size: 28px;
+    font-family: LatoLatin-Thin, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    font-weight: 200 !important;
+    color: #080808
+}
+
+.f50-f,
+.f51-f,
+.f52-f {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    font-weight: 200 !important
+}
+
+.f50-f {
+    color: #fff
+}
+
+.f51-f {
+    font-size: 14px;
+    color: #F5A623
+}
+
+.f52-f,
+.f53-f {
+    font-size: 18px
+}
+
+.f52-f {
+    color: #ABABAB
+}
+
+.f53-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    color: #080808
+}
+
+.f54-f {
+    font-size: 13px;
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif;
+    font-weight: 200 !important;
+    color: #000
+}
+
+.f55-f,
+.f58-f {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif
+}
+
+.f55-f {
+    font-size: 20px;
+    color: #fff
+}
+
+.f58-f {
+    font-size: 34px;
+    color: #7078F7
+}
+
+.normalBold {
+    font-family: LatoLatin-Bold, Hiragino Sans GB, Microsoft YaHei, sans-serif !important;
+}
+
+.normalLight {
+    font-family: LatoLatin-Light, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif !important;
+    font-weight: 200 !important
+}
+
+.normalMedium {
+    font-family: LatoLatin-Medium, Hiragino Sans GB, Microsoft YaHei, sans-serif !important;
+}
+
+.normalRegular {
+    font-family: LatoLatin-Regular, Hiragino Sans GB, Microsoft YaHei, sans-serif !important;
+}
+
+.normalThin {
+    font-family: LatoLatin-Thin, PingFang SC, Hiragino Sans GB, Microsoft YaHei Light, Microsoft YaHei, sans-serif !important;
+    font-weight: 200 !important
+}

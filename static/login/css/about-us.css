@@ -1,0 +1,224 @@
+.page-3 {
+    padding-left: 70px;
+}
+
+.login-header-lst .current {
+    background-color: hsla(0, 0%, 100%, .25);
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-main-menu {
+    position: absolute;
+    left: 10px;
+    transform: translate(0, -50%);
+    top: 40%;
+    padding-left: 70px;
+}
+
+.about-main {
+    min-height: 200px;
+    padding-top: 0 !important;
+    width: calc(100vw - 80px);
+}
+
+.about-main h2 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.about-main-2 {
+    position: absolute;
+    /* transform: translate(0, -50%);
+    top: 50%; */
+}
+
+.figure-explain-wrap {
+    min-height: 169px;
+}
+
+.main-lst {
+    margin-top: 58px;
+    margin-left: 10px;
+}
+
+@media screen and (min-width:600px) and (max-width:990px) {
+    .main-lst {
+        max-width: 460px !important;
+    }
+}
+
+.main-lst li {
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+    border-radius: 90px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.flip {
+    perspective: 1000px;
+}
+
+.flip,
+.login-wrap {
+    position: relative;
+}
+
+.main-lst li .front {
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    background-color: #7078f7;
+    border-radius: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+.flip>div {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+.main-lst li .main-lst-txt {
+    display: block;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-lst li .back img {
+    width: 62%;
+    margin-left: 19%;
+    margin-top: 43px;
+}
+
+.main-lst li:nth-child(4) img {
+    width: 54% !important;
+    margin-left: 23% !important;
+    margin-top: 33px;
+}
+
+.main-lst li .back {
+    width: 180px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.Y div.back {
+    transform: rotateY(180deg);
+}
+
+.flip,
+.login-wrap {
+    position: relative
+}
+
+.about-main {
+    min-height: 200px;
+    padding-top: 0 !important
+}
+
+.line-ht5 {
+    line-height: 25px
+}
+
+.flip {
+    perspective: 1000px
+}
+
+.flip>div {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden
+}
+
+/* .flip:hover .back {
+    z-index: 1;
+    transform: rotateY(0deg)
+}
+
+.flip:hover .front {
+    z-index: 2;
+    transform: rotateY(180deg)
+} */
+
+.flip.hover .front {
+    z-index: 2;
+    transform: rotateY(180deg)
+}
+
+.flip.hover .back {
+    z-index: 2;
+    transform: rotateY(0deg)
+}
+
+ .Y div.back {
+    transform: rotateY(180deg)
+}
+
+.flip-front {
+    transform: rotateY(180deg) !important
+}
+
+.flip-back {
+    transform: rotateY(0) !important
+}
+
+.figure-explain-wrap h2 {
+    font-weight: 800;
+}
+
+.figure-explain-wrap h2 {
+    transition: all .2s linear;
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.figure-explain-wrap p {
+    transition: all .2s linear;
+    /* width: 800px; */
+    margin-bottom: 20px;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+/* @media scr .hide-s-h {} */
+
+@media screen and (max-height:600px) {
+    .hide-s-h {
+        display: none;
+    }
+}

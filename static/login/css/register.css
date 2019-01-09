@@ -1,0 +1,457 @@
+.co-register-bg {
+    height: 100vh;
+    /* background-color: red; */
+    width: 100vw;
+    overflow-y: scroll;
+}
+
+.ps-container {
+    position: relative;
+    display: block;
+}
+
+.ps-container {
+    /* -ms-touch-action: auto; */
+    /* touch-action: auto; */
+    /* overflow: hidden !important; */
+    /* -ms-overflow-style: none; */
+}
+
+.r-register-header {
+    padding-top: 27px;
+    padding-bottom: 21px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.r-register-footer,
+.r-register-head-picture,
+.r-register-header {
+    position: relative;
+    text-align: center;
+}
+
+.r-register-head-picture-box {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.r-person-register-box {
+    width: 100%;
+    position: relative;
+}
+
+.r-person-register-box {
+    width: 100%;
+    position: relative;
+}
+
+.r-person-register {
+    margin: 0 auto;
+    width: 850px;
+    padding-top: 33px;
+}
+
+.r-person-register .r-person-list:nth-child(2n) {
+    float: right;
+}
+
+.r-register-head-picture {
+    width: 296px;
+    height: 296px;
+    margin: 0 auto;
+}
+
+.r-register-header .r-create-company-icon {
+    float: inherit;
+    color: #59cd90;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.but-send {
+    position: absolute !important;
+    right: 0;
+    top: -5px;
+}
+
+.r-register-footer,
+.r-register-head-picture,
+.r-register-header {
+    position: relative;
+    text-align: center;
+}
+
+.r-register-footer {
+    width: 100%;
+    padding-top: 19px;
+    padding-bottom: 50px;
+    box-sizing: content-box;
+}
+
+.r-register-footer,
+.r-register-head-picture,
+.r-register-header {
+    position: relative;
+    text-align: center;
+}
+
+.r-register-footer div {
+    margin-bottom: 5px;
+}
+
+.r-register-create-button {
+    position: absolute;
+    left: 50%;
+    top: 19px;
+    margin-left: -205px;
+}
+
+.r-register-footer span {
+    display: inline-block;
+    padding-top: 43px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.r-person-register .r-person-list {
+    width: 410px;
+    position: relative;
+    float: left;
+    padding-bottom: 40px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    top: 0;
+}
+
+.r-person-register {
+    margin: 0 auto;
+    width: 850px;
+    padding-top: 33px;
+}
+
+.r-person-register-info {
+    height: 48px;
+    font-size: 28px;
+    color: #080808;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #ababab;
+    font-weight: 100 !important;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.r-person-hide {
+    opacity: 0;
+}
+
+.r-person-error {
+    display: block;
+    line-height: 20px;
+    height: 20px;
+    color: #ef428d;
+}
+
+.r-person-register .r-person-list p {
+    height: 40px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ababab;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .2s;
+}
+
+.but-photo-mask:hover,
+.head-pic:hover+div {
+    background: rgba(0, 0, 0, .6);
+    z-index: 10;
+}
+
+.but-photo-mask {
+    width: 296px;
+    height: 296px;
+    background: 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer !important;
+    z-index: 1;
+    border-radius: 4px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    opacity: 1 !important;
+}
+
+.but-photo-mask .but-photo-mask-pos {
+    opacity: 0;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.but-photo-mask:hover .but-photo-mask-pos {
+    opacity: 1;
+}
+
+.upload-fixed {
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    height: 100vh;
+}
+
+.login-header {
+    position: fixed;
+    width: 100%;
+    height: 67px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 20px;
+    z-index: 8;
+    top: 0;
+}
+
+.font-page-back {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    top: 24px;
+    left: 17px;
+    cursor: pointer;
+}
+
+.cropper-esc {
+    color: rgba(145, 147, 171, .5);
+    z-index: 10;
+    transition: all .2s linear;
+}
+
+.r-register-close {
+    font-size: 26px;
+    color: #c5c5c5;
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.upload-fixed-h1 {
+    margin-top: 27px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.cropper-but.but-save {
+    margin-top: 40px;
+}
+
+.cropper-but {
+    width: 410px;
+    margin: 0 auto 20px;
+}
+
+.jcrop-holder {
+    margin: 0 auto;
+}
+
+.upload-fixed {
+    overflow: scroll;
+}
+
+#jcrop-preview {
+    overflow: hidden;
+}
+
+#preview-pane {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+#big-pic {
+    max-width: 800px;
+}
+
+#fileInput {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.jcrop-dragbar {
+    background-color: #5e66d1;
+}
+
+.jcrop-dragbar.ord-w {
+    margin-left: -1px !important;
+}
+
+.jcrop-dragbar.ord-e {
+    margin-right: -1px !important;
+}
+
+.jcrop-dragbar.ord-e,
+.jcrop-dragbar.ord-w {
+    width: 2px !important;
+}
+
+.jcrop-dragbar.ord-n,
+.jcrop-dragbar.ord-s {
+    height: 2px !important;
+}
+
+.jcrop-dragbar.ord-n {
+    margin-top: -1px !important;
+}
+
+.jcrop-dragbar.ord-s {
+    margin-bottom: -1px !important;
+}
+
+.jcrop-handle {
+    background-color: #5e66d1 !important;
+    border: 1px #5e66d1 solid !important;
+    box-shadow: 0 0 3px #cfd2ff;
+}
+
+.jcrop-holder div div .jcrop-tracker {
+    background: rgba(0, 0, 0, .4);
+}
+
+@media screen and (max-width: 600px) {
+    .r-register-head-picture {
+        width: 250px;
+        height: 250px;
+    }
+    #preview-pane {
+        width: 253px;
+        height: 253px;
+    }
+    .but-photo-mask {
+        width: 250px;
+        height: 250px;
+    }
+    .ps-container {
+        overflow-y: scroll !important;
+        width: 100vw;
+        height: 100vh !important;
+    }
+    .register-head-picture {
+        background: rgba(0, 0, 0, .6);
+        z-index: 10;
+    }
+    .but-photo-mask .but-photo-mask-pos {
+        opacity: 1;
+    }
+    .r-register-head-picture-box {
+        padding-bottom: 30px;
+        height: auto;
+    }
+    .r-person-register {
+        padding-top: 0;
+        width: 100vw;
+    }
+    .but-create,
+    .but-email,
+    .but-reset-pass {
+        width: calc(100vw - 40px);
+        margin-left: 20px;
+    }
+    .r-person-register .r-person-list {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: calc(100vw - 40px) !important;
+        padding-bottom: 35px;
+    }
+    .but-send {
+        position: static !important;
+    }
+    .r-register-create-button {
+        left: 0;
+    }
+    .register-position-bottom {
+        height: 89px;
+    }
+    .r-person-register .register-position-top {
+        top: -125px !important;
+    }
+    .r-person-register .register-position-bottom {
+        top: 84px !important;
+    }
+    .but-send {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .set-wrap .auth-code input {
+        width: calc((90vw - 70px) / 6);
+        height: calc((90vw - 70px) / 6 * 1.25);
+        margin-right: 2vw;
+    }
+    .upload-canvas {
+        max-width: 100vw;
+        max-height: 50vh;
+        overflow: scroll;
+    }
+    .cropper-but {
+        width: calc(100vw - 40px);
+    }
+    .login-header {
+        padding-left: 0;
+    }
+    .re-content {
+        width: 100vw;
+        height: 100vh;
+        /* background: red; */
+        overflow-y: scroll;
+    }
+    .re-content ul li {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+.move-placeholder-input-box:hover .move-input {
+    border-bottom: 1px solid #7B7A8A !important;
+}
+
+.set-wrap .auth-code input {
+    border: none;
+    border-bottom: 1px solid #ababab;
+    border-radius: 0;
+    height: 51px;
+    background-color: transparent
+}
+
+.set-wrap .auth-code input:hover {
+    box-shadow: none;
+    border-bottom: 1px solid #7B7A8A;
+}
+
+.set-wrap .auth-code input.current {
+    box-shadow: none;
+}
+
+.r-person-register .r-person-list {
+    background-color: transparent
+}
+
+.r-person-register-box input:-webkit-autofill {
+    /* background-color: #959bf7 !important;
+    // background-image: none !important; */
+    /* -webkit-text-fill-color: #f7f7f7;
+    caret-color: #f7f7f7;
+    box-shadow: 0 0 0px 1000px #f7f7f7 inset !important; */
+}
+
+.term-service{
+    cursor: pointer;
+}

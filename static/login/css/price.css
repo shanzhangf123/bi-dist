@@ -1,0 +1,138 @@
+/* .page-5,
+.page-6 {} */
+
+.price-main {
+    padding-top: 80px;
+    padding-left: 70px;
+}
+
+.price-main h2 {
+    transition: all .2s linear;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 1000;
+    font-size: 58px;
+    font-family: HelveticaNeue;
+    letter-spacing: -2px;
+    margin-top: -5px;
+}
+
+.price-num {
+    color: #7078f7;
+    font-size: 54px;
+    line-height: 64px;
+    font-family: HelveticaNeue;
+    float: left;
+    margin-right: 16px;
+}
+
+.price-title-top {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 32px;
+    color: #7078f7;
+}
+
+.price-title-bottom {
+    font-family: HelveticaNeue;
+    font-size: 19px;
+    letter-spacing: 4px;
+    /* line-height: 32px; */
+    color: #fff;
+}
+
+.price-title {
+    margin-top: 54px;
+}
+
+.price-list {
+    padding: 60px 0 0 20px;
+    width: 560px;
+}
+
+.price-list-2 {
+    width: 410px;
+    position: absolute;
+    left: 730px;
+    top: 360px;
+}
+
+.price-list-2 ul li {
+    list-style-type: disc;
+    color: #7078f7;
+    font-size: 16px;
+    letter-spacing: 1.8px;
+    margin-bottom: 25px;
+}
+
+.price-list-2 ul li span {
+    color: #fff;
+}
+
+.price-list-2 div {
+    font-size: 80px;
+    color: #fff;
+}
+
+.price-list ul li {
+    list-style-type: disc;
+    color: #7078f7;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.price-list ul li span {
+    color: #fff;
+}
+
+.empty-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    float: right;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+.full-circle {
+    background: #fff;
+}
+
+.price-menu-box {
+    width: 230px;
+    position: fixed;
+    right: 70px;
+    top: 303px;
+    opacity: 0;
+}
+
+.price-menu-item {
+    display: block;
+    margin-bottom: 20px;
+    height: 14px;
+}
+
+.price-menu-item span {
+    color: #fff;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    letter-spacing: 1.8px;
+    float: right;
+    line-height: 14px;
+}
+
+.show-price-menu {
+    opacity: 1 !important;
+}
+
+.g-transition-2 {
+    transition: all 0.5s linear;
+}
+
+.page5-span {
+    opacity: 0;
+}

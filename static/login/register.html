@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Parallax, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+    <title>BlockBI - Your Business Helper</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://static.blockbi.com/static/login/css/main.css">
+    <link rel="stylesheet" href="https://static.blockbi.com/static/login/css/global.css">
+    <link rel="stylesheet" href="https://static.blockbi.com/static/login/css/register.css">
+    <link rel="stylesheet" href="https://static.blockbi.com/static/login/css/jquery.Jcrop.min.css">
+</head>
+
+<body>
+    <!-- content start -->
+    <div class="ps-container co-register-bg clearfix">
+        <header class="r-register-header">
+            <span class="r-create-company-icon icon-big-new"></span>
+            <span class="f52-f r-margin-top1 translate" data-lang="sign_up"> Sign up</span>
+            <span class="f53-f r-margin-top1 translate" data-lang="your_account"> Your account</span>
+        </header>
+        <a class="r-register-close font-page-esc" href="../../index.html"></a>
+        <div class="r-register-head-picture-box">
+            <div class="r-register-head-picture">
+                <div>
+                    <div id="preview-pane">
+                        <div class="preview-container">
+                            <img src="https://static.blockbi.com/static/login/img/upload-file-icon.jpg" alt="" class="g-border4 head-pic jcrop-preview" id="short-pic">
+                        </div>
+                    </div>
+                    <div class="but-photo-mask register-head-picture">
+                        <div class="but-photo-mask-pos">
+                            <span class="font-photo"></span>
+                            <span class="f28-f translate" data-lang="u_upload_photo">UPLOAD YOUR PHOTO</span>
+                        </div>
+                        <input type="file" id="fileInput" accept=".jpg,.jpeg,.png,.PNG,.JPG,.JPEG">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="" alt="" class="g-border4 head-pic">
+                </div>
+            </div>
+
+        </div>
+
+        <form class="r-person-register-box clearfix">
+            <div class="r-person-register-box clearfix">
+                <div class="r-person-register clearfix">
+
+                    <div class="r-person-list move-placeholder-input-box">
+                        <input type="text" value="" class="r-person-register-info f49-f normalLight move-input"
+                            autocomplete="off" name="work_name" id="p-workname" tabindex="1">
+                        <p class="f52-f move-title translate" data-lang="u_work_name">YOU WORK NAME</p>
+                    </div>
+                    <div class="r-person-list move-placeholder-input-box">
+                        <input type="text" value="" class="r-person-register-info normalLight move-input" id="p-email"
+                            tabindex="2" name="email">
+                        <p class="f52-f move-title translate" data-lang="u_personal_email">PERSONAL EMAIL</p>
+                    </div>
+                    <div class=" r-person-list move-placeholder-input-box">
+                        <input value="" class="r-person-register-info normalLight move-input" type="password" id="p-password"
+                            autocomplete="new-password" name="password" tabindex="3">
+                        <p class="f52-f move-title translate" data-lang="u_password">PASSWORD</p>
+                    </div>
+                    <div class="r-person-list register-position-bottom move-placeholder-input-box">
+                        <input type="text" value="" class="r-person-register-info normalLight move-input" tabindex="5"
+                            id='p-phone' name="phone">
+                        <p class="f52-f move-title translate" data-lang="u_personal_phone">PERSONAL PHONE NUMBER</p>
+                        <div class="but but-send but-send-code">
+                            <span class="base translate" data-lang="u_send_code">SEND AUTH CODE</span>
+                        </div>
+                    </div>
+                    <div class="r-person-list register-position-top move-placeholder-input-box">
+                        <input type="password" value="" class="r-person-register-info normalLight move-input"
+                            autocomplete="new-password" name="confirm_password" tabindex="4">
+                        <p class="f52-f move-title translate" data-lang="u_password_again">PASSWORD AGAIN</p>
+                    </div>
+                    <div class="set-wrap r-person-list person-set-wrap hide" id="auth-code">
+                        <div class="auth-code">
+                            <input class="f49-f normalThin code-input" type="text" value="" maxlength="1">
+                            <input class="f49-f normalThin code-input" type="text" value="" maxlength="1">
+                            <input class="f49-f normalThin code-input" type="text" value="" maxlength="1">
+                            <input class="f49-f normalThin code-input" type="text" value="" maxlength="1">
+                            <input class="f49-f normalThin code-input" type="text" value="" maxlength="1">
+                            <input class="f49-f normalThin code-input" type="text" value="" maxlength="1">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+        <div class="r-register-footer">
+            <div class="but but-create r-register-create-button">
+                <em class="base translate" data-lang="u_create">CREATE</em>
+                <i class="font-selectbutton-select but-status"></i>
+                <i class="font-remove but-status"></i>
+            </div>
+            <span class="f14-f translate" data-lang="create_msg_1">By click</span>
+            <span class="f46-f translate" data-lang="create_msg_2">CREATE1 I</span>
+            <span class="f14-f translate" data-lang="create_msg_3">I agree to</span>
+            <span class="f42-f r-person-service translate term-service cur-pointer" id="term-service" 
+                data-lang="create_msg_4">
+                Terms of service
+            </span>
+        </div>
+        <!--</form>-->
+    </div>
+    <!-- content end -->
+    <!-- file cut start -->
+    <div class="upload-fixed hide">
+        <a class="r-register-close font-page-esc cropper-esc back-to-main"></a>
+        <header class="clearfix login-header">
+            <a class="font-page-back pull-left back-to-main">
+                <em class="path1"></em>
+            </a>
+        </header>
+        <h1 class="upload-fixed-h1 text-center f53-f translate" data-lang="u_crop_picture">CROP THE PICTURE</h1>
+        <div class="upload-canvas">
+            <img id="big-pic" src="https://static.blockbi.com/static/login/img/test.jpg">
+        </div>
+        <canvas id="canvas" width="300" height="300" class="hide"></canvas>
+        <div class="reset-pass">
+            <div class="but but-save cropper-but">
+                <span class="base translate" data-lang="u_save">SAVE</span>
+            </div>
+            <div class="but but-done cropper-but" id="re-upload-btn">
+                <span class="base translate" data-lang="u_reupload">REUPLOAD</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- file cut end -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://static.blockbi.com/static/login/js/jquery-min.js"></script>
+    <!-- <script src="../js/bootstrap.min.js"></script> -->
+    <!-- hide scroll -->
+    <!-- <script src="../js/jquery.nicescroll.min.js"></script> -->
+    <script src="https://static.blockbi.com/static/login/js/jquery.Jcrop.min.js"></script>
+    <script src="https://static.blockbi.com/static/login/js/global.js"></script>
+    <script src="https://static.blockbi.com/static/login/js/jquery.i18n.properties.js"></script>
+
+    <script>
+        //国际化
+        var formatLang = JSON.parse(sessionStorage.getItem("ANGULAR_PERSISTENCE_STORAGE::lan"));
+        if (formatLang != null) {
+            translate(formatLang.data);
+        } else {
+            translate('en');
+        }
+        $("#toggle-lan-btn").click(function () {
+            $("#toggle-lan-box").toggleClass("hide");
+        });
+        $(".lang-btn").click(function () {
+            var langBox = $(this).find(".base")
+            translate(langBox.data("data"));
+            $("#toggle-lan-box").toggleClass("hide");
+            var date = new Date().valueOf();
+            sessionStorage.setItem("ANGULAR_PERSISTENCE_STORAGE::lan",
+                JSON.stringify({ "data": langBox.data("data"), "oneUse": false, "created": date, "lastAccessed": date }));
+        })
+        function translate(lang) {
+            jQuery.i18n.properties({
+                name: 'lang',
+                path: './static/login/i18n/',
+                mode: 'both',
+                language: lang,
+                async: false,
+                callback: function () {
+                    $(".translate").each(function () {
+                        var thisDom = $(this);
+                        var msg = thisDom.data("lang");
+                        thisDom.html($.i18n.prop(msg));
+                    });
+                }
+            });
+            $(".lang-btn").removeClass("current");
+            $(".lang-btn").each(function () {
+                if ($(this).find(".base").data("data") == lang) {
+                    $(this).addClass("current");
+                }
+            });
+        }</script>
+    <script src="https://static.blockbi.com/static/login/js/register.js"></script>
+</body>
+
+</html>
